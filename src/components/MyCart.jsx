@@ -25,6 +25,11 @@ export const MyCart = () => {
 
             </div>
             <div className="datas p-10 flex gap-3 flex-wrap">
+
+
+
+                
+
                 {
                     cartData.map((elem) => <Cartcards elem={elem}/>)
                 }
